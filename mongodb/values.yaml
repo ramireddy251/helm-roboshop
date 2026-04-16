@@ -4,7 +4,7 @@ deployment:
   imageVersion: "latest"
   cpuRequest: "128m"
   memoryRequest: "256Mi"
-  cpuLimit: cpu: "256m"
+  cpuLimit: "256m"
   memoryLimit: "512Mi"
   storage: 5Gi
 
