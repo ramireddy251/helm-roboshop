@@ -1,0 +1,11 @@
+deployment:
+  replicas: "1"
+  imageName: "966392474288.dkr.ecr.us-east-1.amazonaws.com/mongodb"
+  imageVersion: "latest"
+  cpuRequest: "128m"
+  memoryRequest: "256Mi"
+  cpuLimit: cpu: "256m"
+  memoryLimit: "512Mi"
+  storage: 5Gi
+
+          
