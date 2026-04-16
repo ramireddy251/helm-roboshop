@@ -1,0 +1,5 @@
+apiVersion: v2
+name: catalogue
+version: 0.0.1 # chart version
+appVersion: latest # this is application version
+description: "catalogue latest"

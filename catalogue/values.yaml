@@ -1,0 +1,10 @@
+configMap:
+  MONGO_URL: "mongodb://mongodb:27017/catalogue"
+deployment:
+  replicas: 1
+  imageName: 966392474288.dkr.ecr.us-east-1.amazonaws.com/catalogue
+  imageVersion: "latest"
+  cpuRequest: "128m"
+  memoryRequest: "256Mi"
+  cpuLimit: "256m"
+  memoryLimit: "512Mi"
