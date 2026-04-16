@@ -1,11 +1,3 @@
-apiVersion: storage.k8s.io/v1
-kind: StorageClass
-metadata:
-  name: mongodb-ebs
-provisioner: ebs.csi.aws.com
-volumeBindingMode: WaitForFirstConsumer
-reclaimPolicy: Retain
----
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
